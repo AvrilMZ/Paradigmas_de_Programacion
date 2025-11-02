@@ -11,9 +11,7 @@
 
 ### Integrantes del Grupo "Morfeo Zerbi - Valencia"
 - 112563 - [Avril Victoria Morfeo Zerbi](https://github.com/AvrilMZ)
-  - Video: https://youtu.be/w2igXXoLznc
 - 112776 - [Nicolás Valencia](https://github.com/nicoValencia25)
-  - Video: https://youtu.be/m528FBPukqw
 
 ## Descripción
 
