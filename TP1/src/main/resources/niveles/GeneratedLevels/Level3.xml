@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<levelConfig gameName="BattleCity" version="1.0" levelIndex="1" name="Level 1">
+    <level width="600.0" height="600.0" cols="13" rows="13">
+        <players>
+            <player id="player1" x="162" y="346"/>
+            <player id="player2" x="438" y="346"/>
+        </players>
+        <enemies>
+            <enemy id="enemy1_2" type="fastEnemy" x="115.3076923076923" y="69.15384615384616"/>
+            <enemy id="enemy1_10" type="fastEnemy" x="484.53846153846155" y="69.15384615384616"/>
+            <enemy id="enemy9_1" type="regularEnemy" x="69.15384615384616" y="438.38461538461536"/>
+            <enemy id="enemy9_11" type="powerfulEnemy" x="530.6923076923076" y="438.38461538461536"/>
+            <enemy id="enemy11_1" type="heavyEnemy" x="69.15384615384616" y="530.6923076923076"/>
+            <enemy id="enemy11_11" type="heavyEnemy" x="530.6923076923076" y="530.6923076923076"/>
+        </enemies>
+        <staticObjects>
+            <staticObject type="forestBlock" x="23.0" y="23.0"/>
+            <staticObject type="forestBlock" x="69.15384615384616" y="23.0"/>
+            <staticObject type="forestBlock" x="115.3076923076923" y="23.0"/>
+            <staticObject type="forestBlock" x="161.46153846153845" y="23.0"/>
+            <staticObject type="forestBlock" x="207.6153846153846" y="23.0"/>
+            <staticObject type="forestBlock" x="253.76923076923077" y="23.0"/>
+            <staticObject type="forestBlock" x="299.9230769230769" y="23.0"/>
+            <staticObject type="forestBlock" x="346.0769230769231" y="23.0"/>
+            <staticObject type="forestBlock" x="392.2307692307692" y="23.0"/>
+            <staticObject type="forestBlock" x="438.38461538461536" y="23.0"/>
+            <staticObject type="forestBlock" x="484.53846153846155" y="23.0"/>
+            <staticObject type="forestBlock" x="530.6923076923076" y="23.0"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="23.0"/>
+            <staticObject type="forestBlock" x="23.0" y="69.15384615384616"/>
+            <staticObject type="brickBlock" x="69.15384615384616" y="69.15384615384616"/>
+            <staticObject type="brickBlock" x="161.46153846153845" y="69.15384615384616"/>
+            <staticObject type="brickBlock" x="253.76923076923077" y="69.15384615384616"/>
+            <staticObject type="brickBlock" x="299.9230769230769" y="69.15384615384616"/>
+            <staticObject type="brickBlock" x="346.0769230769231" y="69.15384615384616"/>
+            <staticObject type="brickBlock" x="438.38461538461536" y="69.15384615384616"/>
+            <staticObject type="brickBlock" x="530.6923076923076" y="69.15384615384616"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="69.15384615384616"/>
+            <staticObject type="forestBlock" x="23.0" y="115.3076923076923"/>
+            <staticObject type="brickBlock" x="69.15384615384616" y="115.3076923076923"/>
+            <staticObject type="brickBlock" x="530.6923076923076" y="115.3076923076923"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="115.3076923076923"/>
+            <staticObject type="forestBlock" x="23.0" y="161.46153846153845"/>
+            <staticObject type="brickBlock" x="69.15384615384616" y="161.46153846153845"/>
+            <staticObject type="brickBlock" x="115.3076923076923" y="161.46153846153845"/>
+            <staticObject type="brickBlock" x="207.6153846153846" y="161.46153846153845"/>
+            <staticObject type="brickBlock" x="299.9230769230769" y="161.46153846153845"/>
+            <staticObject type="brickBlock" x="392.2307692307692" y="161.46153846153845"/>
+            <staticObject type="brickBlock" x="484.53846153846155" y="161.46153846153845"/>
+            <staticObject type="brickBlock" x="530.6923076923076" y="161.46153846153845"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="161.46153846153845"/>
+            <staticObject type="forestBlock" x="23.0" y="207.6153846153846"/>
+            <staticObject type="brickBlock" x="207.6153846153846" y="207.6153846153846"/>
+            <staticObject type="baseBlock" x="299.9230769230769" y="207.6153846153846"/>
+            <staticObject type="brickBlock" x="392.2307692307692" y="207.6153846153846"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="207.6153846153846"/>
+            <staticObject type="forestBlock" x="23.0" y="253.76923076923077"/>
+            <staticObject type="brickBlock" x="69.15384615384616" y="253.76923076923077"/>
+            <staticObject type="brickBlock" x="115.3076923076923" y="253.76923076923077"/>
+            <staticObject type="brickBlock" x="484.53846153846155" y="253.76923076923077"/>
+            <staticObject type="brickBlock" x="530.6923076923076" y="253.76923076923077"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="253.76923076923077"/>
+            <staticObject type="forestBlock" x="23.0" y="299.9230769230769"/>
+            <staticObject type="brickBlock" x="253.76923076923077" y="299.9230769230769"/>
+            <staticObject type="brickBlock" x="346.0769230769231" y="299.9230769230769"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="299.9230769230769"/>
+            <staticObject type="forestBlock" x="23.0" y="346.0769230769231"/>
+            <staticObject type="brickBlock" x="69.15384615384616" y="346.0769230769231"/>
+            <staticObject type="brickBlock" x="253.76923076923077" y="346.0769230769231"/>
+            <staticObject type="brickBlock" x="346.0769230769231" y="346.0769230769231"/>
+            <staticObject type="brickBlock" x="530.6923076923076" y="346.0769230769231"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="346.0769230769231"/>
+            <staticObject type="forestBlock" x="23.0" y="392.2307692307692"/>
+            <staticObject type="brickBlock" x="69.15384615384616" y="392.2307692307692"/>
+            <staticObject type="brickBlock" x="115.3076923076923" y="392.2307692307692"/>
+            <staticObject type="brickBlock" x="253.76923076923077" y="392.2307692307692"/>
+            <staticObject type="brickBlock" x="346.0769230769231" y="392.2307692307692"/>
+            <staticObject type="brickBlock" x="484.53846153846155" y="392.2307692307692"/>
+            <staticObject type="brickBlock" x="530.6923076923076" y="392.2307692307692"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="392.2307692307692"/>
+            <staticObject type="forestBlock" x="23.0" y="438.38461538461536"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="438.38461538461536"/>
+            <staticObject type="forestBlock" x="23.0" y="484.53846153846155"/>
+            <staticObject type="brickBlock" x="69.15384615384616" y="484.53846153846155"/>
+            <staticObject type="brickBlock" x="115.3076923076923" y="484.53846153846155"/>
+            <staticObject type="brickBlock" x="207.6153846153846" y="484.53846153846155"/>
+            <staticObject type="brickBlock" x="392.2307692307692" y="484.53846153846155"/>
+            <staticObject type="brickBlock" x="484.53846153846155" y="484.53846153846155"/>
+            <staticObject type="brickBlock" x="530.6923076923076" y="484.53846153846155"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="484.53846153846155"/>
+            <staticObject type="forestBlock" x="23.0" y="530.6923076923076"/>
+            <staticObject type="brickBlock" x="115.3076923076923" y="530.6923076923076"/>
+            <staticObject type="brickBlock" x="299.9230769230769" y="530.6923076923076"/>
+            <staticObject type="brickBlock" x="484.53846153846155" y="530.6923076923076"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="530.6923076923076"/>
+            <staticObject type="forestBlock" x="23.0" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="69.15384615384616" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="115.3076923076923" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="161.46153846153845" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="207.6153846153846" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="253.76923076923077" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="299.9230769230769" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="346.0769230769231" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="392.2307692307692" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="438.38461538461536" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="484.53846153846155" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="530.6923076923076" y="576.8461538461538"/>
+            <staticObject type="forestBlock" x="576.8461538461538" y="576.8461538461538"/>
+        </staticObjects>
+    </level>
+</levelConfig>

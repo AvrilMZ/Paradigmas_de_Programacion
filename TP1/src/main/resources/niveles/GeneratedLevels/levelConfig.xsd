@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="levelConfig">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="level">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- Players: exactly 2 -->
+              <xs:element name="players">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="player" maxOccurs="2" minOccurs="2">
+                      <xs:complexType>
+                        <xs:attribute name="id" use="required">
+                          <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                              <xs:enumeration value="player1"/>
+                              <xs:enumeration value="player2"/>
+                            </xs:restriction>
+                          </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="x" type="xs:positiveInteger" use="required"/>
+                        <xs:attribute name="y" type="xs:positiveInteger" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <!-- Enemies: required, can be empty -->
+              <xs:element name="enemies" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="enemy" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                        <xs:attribute name="type" use="required">
+                          <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                              <xs:enumeration value="regularEnemy"/>
+                              <xs:enumeration value="heavyEnemy"/>
+                              <xs:enumeration value="fastEnemy"/>
+                              <xs:enumeration value="powerfulEnemy"/>
+                            </xs:restriction>
+                          </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="x" type="xs:positiveInteger" use="required"/>
+                        <xs:attribute name="y" type="xs:positiveInteger" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <!-- Static Objects: required, can be empty -->
+              <xs:element name="staticObjects" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="staticObject" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="type" use="required">
+                          <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                              <xs:enumeration value="brickBlock"/>
+                              <xs:enumeration value="steelBlock"/>
+                              <xs:enumeration value="waterBlock"/>
+                              <xs:enumeration value="forestBlock"/>
+                              <xs:enumeration value="baseBlock"/>
+                            </xs:restriction>
+                          </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="x" type="xs:positiveInteger" use="required"/>
+                        <xs:attribute name="y" type="xs:positiveInteger" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+
+            <!-- Level attributes -->
+            <xs:attribute name="width" type="xs:positiveInteger" use="required"/>
+            <xs:attribute name="height" type="xs:positiveInteger" use="required"/>
+            <xs:attribute name="cols" type="xs:positiveInteger" use="required"/>
+            <xs:attribute name="rows" type="xs:positiveInteger" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+
+      <!-- Root attributes -->
+      <xs:attribute name="gameName" type="xs:string" use="required"/>
+      <xs:attribute name="version" type="xs:string" use="required"/>
+      <xs:attribute name="levelIndex" type="xs:positiveInteger" use="required"/>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
